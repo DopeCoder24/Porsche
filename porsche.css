@@ -1,0 +1,116 @@
+* {
+  border: border-box;
+  margin: 0;
+}
+body {
+  font-family: "Source Code Pro", monospace;
+  font-weight: 100;
+  text-align: center;
+  overflow: hidden;
+  margin: 30px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  margin: 10px;
+}
+.nav img {
+  height: 60px;
+  width: 60px;
+}
+.nav a {
+  color: black;
+}
+
+.up {
+  margin-top: 30px;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: fixed;
+  height: auto;
+}
+#up1 {
+  letter-spacing: 25px;
+  margin-right: 30px;
+}
+#up2 {
+  color: rgb(169, 10, 39);
+}
+
+.down {
+  position: relative;
+  z-index: -1;
+  color: rgba(114, 111, 111, 0.1);
+  font-size: 4.2rem;
+  letter-spacing: 120px;
+  height: auto;
+}
+/* main**************** */
+.header {
+  font-size: 20px;
+  opacity: 70%;
+}
+.car img {
+  height: 340px;
+  width: 1000px;
+}
+.circle {
+  display: inline-block;
+  position: absolute;
+  top: 350px;
+  left: 120px;
+}
+#circle1 {
+  background-color: rgb(190, 190, 190);
+  height: 10px;
+  width: 10px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+#circle2 {
+  background-color: rgb(255, 221, 0);
+  height: 10px;
+  width: 10px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+#circle3 {
+  background-color: black;
+  height: 10px;
+  width: 10px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+#circle4 {
+  background-color: rgb(169, 10, 39);
+  height: 10px;
+  width: 10px;
+  border-radius: 20px;
+}
+.btn-div {
+  display: inline-block;
+  position: absolute;
+  top: 350px;
+  right: 120px;
+}
+#btn {
+  padding: 20px;
+  border-radius: 80px;
+  background-color: transparent;
+  border: 0.5px solid black;
+}
+.end-nav {
+  display: inline-block;
+  margin-top: 20px;
+}
+#nav1 {
+  display: flex;
+  font-size: 18px;
+}
+#nav1 pre {
+  margin-right: 100px;
+  opacity: 70%;
+}
